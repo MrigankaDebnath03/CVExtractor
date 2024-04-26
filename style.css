@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    margin: 2rem;
+  }
+  
+  #upload-container, #download-container {
+    margin-bottom: 1rem;
+  }
+  
+  #upload-button {
+    display: none;
+  }
+  
+  #download-button {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  
+  #download-button.active {
+    background-color: red;
+    opacity: 1;
+  }
+  
